@@ -1,0 +1,29 @@
+## Build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+## Test results
+TestResults/
+*.trx
+artifacts/
+
+## IDE
+.vs/
+.vscode/
+*.user
+*.sln.iml
+
+## Runtime
+audit.log
+metrics.json
+
+## Dependencies
+packages/
+.nuget/
+
+## OS
+.DS_Store
+Thumbs.db

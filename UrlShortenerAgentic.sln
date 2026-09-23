@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestrator", "orchestrator\Orchestrator.csproj", "{0F53E7FB-94E1-49D9-A8A0-ADB7513BA41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestrator.Tests", "orchestrator.Tests\Orchestrator.Tests.csproj", "{188FC18F-C2F8-48EF-96F1-A780F1906967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "generated", "generated", "{FBC80C4B-E07E-43A1-B6D1-B59EFE8D8400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Api", "generated\UrlShortener.Api\UrlShortener.Api.csproj", "{7DBD1884-4930-4639-B75D-02D8364F63D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Tests", "generated\UrlShortener.Tests\UrlShortener.Tests.csproj", "{98040DA0-DB8F-4425-B99E-F3221EB05519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F53E7FB-94E1-49D9-A8A0-ADB7513BA41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F53E7FB-94E1-49D9-A8A0-ADB7513BA41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F53E7FB-94E1-49D9-A8A0-ADB7513BA41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F53E7FB-94E1-49D9-A8A0-ADB7513BA41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188FC18F-C2F8-48EF-96F1-A780F1906967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188FC18F-C2F8-48EF-96F1-A780F1906967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188FC18F-C2F8-48EF-96F1-A780F1906967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188FC18F-C2F8-48EF-96F1-A780F1906967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD1884-4930-4639-B75D-02D8364F63D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD1884-4930-4639-B75D-02D8364F63D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD1884-4930-4639-B75D-02D8364F63D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD1884-4930-4639-B75D-02D8364F63D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98040DA0-DB8F-4425-B99E-F3221EB05519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98040DA0-DB8F-4425-B99E-F3221EB05519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98040DA0-DB8F-4425-B99E-F3221EB05519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98040DA0-DB8F-4425-B99E-F3221EB05519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DBD1884-4930-4639-B75D-02D8364F63D6} = {FBC80C4B-E07E-43A1-B6D1-B59EFE8D8400}
+		{98040DA0-DB8F-4425-B99E-F3221EB05519} = {FBC80C4B-E07E-43A1-B6D1-B59EFE8D8400}
+	EndGlobalSection
+EndGlobal
